@@ -1,0 +1,106 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+.navbar-brand {
+ padding-left: 24px;
+}
+.colmarcademy {
+ text-transform: uppercase;
+ padding-left: 10px;
+ color: black;
+ font-weight: bold;
+ font-size: 25px;
+}
+.container-fluid {
+padding: 0;
+margin: 0;
+}
+.card {
+ border-radius: 0%;
+}
+.card-title-hero {
+ font-weight: bold;
+}
+.start-button {
+ color:white;
+ padding: 15px;
+ border: black ;
+ border-radius: 10px;
+ background-color: rgba(0, 0, 0, 0.2);
+ font-size: 20px;
+}
+.img-responsive-info {
+ width: 150px;
+ height: 150px;
+}
+.card-body-info {
+ margin-left: 10px;
+}
+.thesis-exhibit {
+ padding-top: 20px;
+ padding-bottom: 20px;
+ background-color: rgba(0, 0, 0, 0.2);
+ font-weight: bold;
+ font-size: 0px;
+}
+.thesis-1 {
+ padding-left: 0px;
+ margin-left: 0px;
+}
+.hovereffect:hover {
+ background-color: turquoise;
+}
+.footer {
+ font-size: 15px;
+ font-weight: bold;
+}
+.visible {
+ visibility: hidden;
+}
+
+
+/* Mobile Responsive */
+@media only screen and (max-width: 576px) {
+ .colmarcademy {
+  display: none;
+ }
+ .information-main {
+  display: none;
+ }
+ .information-row {
+  text-align: center;
+ }
+ .software-responsive {
+  display: none;
+ }
+ .computerart-responsive {
+  display: none;
+ }
+ .design-responsive {
+  display: none;
+ }
+ .data-responsive {
+  display: none;
+ }
+ .business-responsive {
+  display: none;
+ }
+ .marketing-responsive {
+  display: none;
+ }
+ .thesis-exhibit {
+  text-align: center;
+ }
+ img {
+  display:block;
+  margin:0 auto;
+ }
+ .card-thesis {
+  display: none;
+ }
+ .start-button {
+  width: 100%;
+  font-size: 10px;
+ }
+}

@@ -1,0 +1,38 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+.navbar-brand {
+ padding-left: 24px;
+}
+.colmarcademy {
+ text-transform: uppercase;
+ padding-left: 10px;
+ color: black;
+ font-weight: bold;
+}
+.container-fluid {
+padding-left: 0;
+padding-right: 0;
+}
+.card {
+ border-radius: 0%;
+}
+.card-title {
+ font-size: 20px;
+ font-weight: bold;
+}
+.button {
+ color: black;
+ padding: 5px;
+ border: black ;
+ border-radius: 5px;
+ background-color: rgb(68, 67, 67);
+}
+.img-responsive-info {
+ width: 150px;
+ height: 150px;
+}
+.card-body-info {
+ margin-left: 10px;
+}
